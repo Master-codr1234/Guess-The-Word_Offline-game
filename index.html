@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<link rel="icon" href="icon.jfif">
+</head>
+<body onload="load_content()">
+	<center>
+		<h1 class="text-capitalize">guess the word</h1>
+		<div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 login_div">
+			<h3 class="text-capitalize">player 1 login for the game</h3>
+			<label class="text-capitalize">user name:</label>
+			<input class="form-control" id="player_1_name" placeholder="Player 1's name">
+			<br>
+		</div>
+		<br>
+		<div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 login_div">
+			<h3 class="text-capitalize">player 2 login for the game</h3>
+			<label class="text-capitalize">user name:</label>
+			<input class="form-control" id="player_2_name" placeholder="Player 2's name">
+			<br>
+		</div>
+		<br>
+		<button style="width: 30%;" class="btn btn-primary text-capitalize" onclick="add_User()">log in</button>
+	</center>
+	<script src="game_login.js"></script>
+</body>
+</html>
